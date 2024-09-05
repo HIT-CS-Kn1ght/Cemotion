@@ -22,7 +22,8 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 
 log.getLogger('modelscope').setLevel(log.CRITICAL)
 logging.set_verbosity_error()
-tokenizer = BertTokenizer.from_pretrained('bert-base-chinese')
+# tokenizer = BertTokenizer.from_pretrained('bert-base-chinese')    # 网络好的话可以在线下载
+tokenizer = BertTokenizer.from_pretrained('./bert-base-chinese')
 
 
 # 检测所需文件是否存在，不存在则下载
@@ -118,9 +119,6 @@ class Cemotion:
             predictions.append(predict)
         return predictions
     
-
-
-
 
 class Cegmentor:
     def __init__(self):

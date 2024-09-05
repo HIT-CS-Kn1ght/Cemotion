@@ -8,7 +8,8 @@ test.ipynb
 */Cemotion.egg-info/
 */build/
 *.vscode
-
+*.idea
+bert-base-chinese
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

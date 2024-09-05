@@ -5,3 +5,7 @@ numpy>=1.19.5
 torch>=2.0.0
 transformers>=4.24.0
 modelscope>=1.14.0
+addict>=2.4.0
+datasets>=2.14.7
+oss2>=2.18.4
+pillow>=10.1.0
